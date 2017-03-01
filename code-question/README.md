@@ -2,12 +2,6 @@
 
 Design a command-line controller program for a robotic arm that takes commands which moves blocks stacked in a series of slots. After each command, output the state of the slots, which each line of output corresponding to a slot and each X corresponding to a block.
 
-### Notes
-1. We should be able to run your program from the command line.
-2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is starndard in the language you choose.
-4. Don't spend more than an hour or two.
-5. Commit the code for your solution in this folder in your repo.
-
 **Commands:**
 
   * size [n] - Adjust the number of slots, resizing if necessary. Program must start with this to be valid.
@@ -45,3 +39,9 @@ Your program should validate that the commands are syntactically valid before ex
 2: X
 3:
 ```
+
+### Notes
+1. We should be able to run your program from the command line.
+2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is starndard in the language you choose.
+4. Don't spend more than an hour or two.
+5. Commit the code for your solution in this folder in your repo.
