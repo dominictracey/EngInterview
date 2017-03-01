@@ -2,12 +2,13 @@ First pass at a design exercise:
 
 ## Design Exercise
 
-Assume you have a map like the maps you see throughout our sites. As an example, let's use the one on the [https://www.hikingproject.com/directory/8007421](area page for Rocky Mountain National Park).
+Assume you have a map like the maps you see throughout our sites. As an example, let's use the one on the [area page for Rocky Mountain National Park](https://www.hikingproject.com/directory/8007421).
 
 This map:
+
 1. Dynamically loads trails, symbols, photos, REI store locations, and gems.
 2. Supports 3 basic zoom levels: identical grouped bubbles at the furthest zoom, grouped bubbles by trail difficulty at the middle zoom, and full trail details at the closest zoom.
-3. Loads data within a given [http://wiki.openstreetmap.org/wiki/Bounding_Box](bounding box), and loads data from adjacent bounding boxes as the user scrolls around.
+3. Loads data within a given [bounding box](http://wiki.openstreetmap.org/wiki/Bounding_Box), and loads data from adjacent bounding boxes as the user scrolls around.
 
 That's a pretty good amount of data. How would you design the map loading process to be as efficient as possible, while still maintaing a snappy-feeling experience for users?
 
