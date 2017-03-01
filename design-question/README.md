@@ -18,4 +18,4 @@ There are a ton of variables here, and we're not looking for code in this answer
 2. What are the pluses and minuses of the endpoint(s) you chose, in terms of both server performance, front-end performance, and user experience?
 3. What assumptions are you making about which performance lags are more acceptable than others?
 
-Please check-in a text or markdown document in this folder, no more than about a page long, that runs us through your thought process and a provides a high-level overview of the endpoint(s) you'd use to load the map data.
+Please check-in a text or markdown document in this folder, no more than about a page long, that runs us through your thought process and a provides a high-level overview of the process and endpoint(s) you'd use to load the map data.
