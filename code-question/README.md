@@ -1,6 +1,6 @@
 ## Coding Exercise
 
-Design a command-line controller program for a robotic arm that takes commands which moves blocks stacked in a series of slots. After each command, output the state of the slots, which each line of output corresponding to a slot and each X corresponding to a block.
+Design a command-line controller program for a robotic arm that takes commands that move blocks stacked in a series of slots. After each command, output the state of the slots, which each line of output corresponding to a slot and each X corresponding to a block.
 
 **Commands:**
 
