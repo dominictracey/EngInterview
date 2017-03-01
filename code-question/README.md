@@ -42,7 +42,7 @@ Your program should validate that the commands are syntactically valid before ex
 
 ### Notes
 1. We should be able to run your program from the command line.
-2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is starndard in the language you choose.
+2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is standard in the language you choose.
 4. Don't spend more than an hour or two.
 5. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
 6. Commit the code for your solution in this folder in your repo.
