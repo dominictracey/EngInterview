@@ -47,7 +47,7 @@ Your program should validate that the commands are syntactically valid before ex
 2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is standard in the language you choose.
 3. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
 4. We're mostly interested in how you choose to structure and organize your code, since the problem itself is relatively straightforward.
-5. Feel free to add comments about tradeoffs you're making or optimizations you'd make if you had more time, but plase don't spend more than a few hours on the code you submit.
+5. Feel free to add comments about tradeoffs you're making or optimizations you'd make if you had more time, but please don't spend more than a few hours on the code you submit.
 6. Send us a link to a github repo with your solution.
 
 
