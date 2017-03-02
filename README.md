@@ -8,6 +8,8 @@ Design a command-line controller program for a robotic arm that takes commands t
   * add [slot] - Adds a block to the specified slot.
   * mv [slot1] [slot2] - Moves a block from slot1 to slot2.
   * rm [slot] - Removes a block from the slot.
+  * replay [n] - Replays the last n commands.
+  * undo [n] - Undo the last n commands.
 
 Your program should validate that the commands are syntactically valid before executing them.
 
@@ -43,7 +45,9 @@ Your program should validate that the commands are syntactically valid before ex
 ### Notes
 1. We should be able to run your program from the command line.
 2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is standard in the language you choose.
-4. Don't spend more than an hour or two.
-5. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
+3. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
+4. We're mostly interested in how you choose to structure and organize your code, since the problem itself is relatively straightforward.
+5. Feel free to add comments about tradeoffs you're making or optimizations you'd make if you had more time, but plase don't spend more than a few hours on the code you submit.
 6. Send us a link to a github repo with your solution.
-7. Even though this is a very simple problem, we are interested in how you choose to structure and organize your code.
+
+
