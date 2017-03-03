@@ -45,10 +45,11 @@ Your program should validate that the commands are syntactically valid before ex
 ### Notes
 1. We should be able to run your program from the command line.
 2. Use whatever language you'd like, but don't use any libraries or frameworks aside from whatever is standard in the language you choose.
-3. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
-4. We're mostly interested in how you choose to structure and organize your code, since the problem itself is relatively straightforward.
-5. Feel free to add comments about tradeoffs you're making or optimizations you'd make if you had more time.
-6. Please don't spend more than 2 hours on the code you submit.
-7. Send us a link to a github repo with your solution within a week.
+3. Don't persist anything to a database or file store. Keep everthing in memory, and start from a clean slate every time the program runs.
+4. Please comment your code as necessary, including explaining any assumptions you're making. No assumptions are wrong as long as we're aware of what they are.
+5. We're mostly interested in how you choose to structure and organize your code, since the problem itself is relatively straightforward.
+6. Feel free to add comments about tradeoffs you're making or optimizations you'd make if you had more time.
+7. Please don't spend more than 2 hours on the code you submit.
+8. Send us a link to a github repo with your solution within a week.
 
 
