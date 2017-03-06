@@ -7,7 +7,9 @@ public interface IAction {
   // should really do IAction1 and IAction2 to support different parameter list lengths...
   public abstract boolean validate(IState state, int slot1, int slot2);
 
-  public abstract IState execute(IState state, int slot1, int slot2);
+  public abstract IState execute(IState state);
+  public abstract IState redo(IState state);
+  public abstract IState undo(IState state);
 
 
 }

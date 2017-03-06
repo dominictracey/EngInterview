@@ -21,13 +21,18 @@ public class Slot implements ISlot {
 	}
 
 	@Override
-	public boolean remove(String s) {
+	public boolean remove() {
 		if (slot.size() > 0) {
 			slot.remove(0);
 			return true;
 		} else {
 			return false;
 		}
+	}
+
+	@Override
+	public int count() {
+		return slot.size();
 	}
 
 }

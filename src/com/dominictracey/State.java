@@ -53,4 +53,11 @@ public class State implements IState {
 		}
 	}
 
+	@Override
+	public int getSize() {
+		return state.size();
+	}
+	
+	
+
 }
