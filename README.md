@@ -1,3 +1,60 @@
+## Hello!
+
+The implementation is mostly complete. Didn't mess around with undo-ing or replaying the undo or replay actions in the interest of time. The model package contains the interfaces used and the actions are served up by an action factory.
+
+I maintain the action queue for undo and replaying within the controller for ease of access (the controller is accessible to the action subclasses as a singleton).
+
+State management is pretty rudimentary so this isn't thread safe. State object would be copied and a modified instance returned to make this more robust.
+
+Exceptions are just trapped at the main run loop, though invalid inputs should be trapped and logged before they are attempted.
+
+Output example:
+```
+Valid actions are: size, add, mv, rm, replay, undo, exit
+> size 2
+1: []
+2: []
+> size 7
+1: []
+2: []
+3: []
+4: []
+5: []
+6: []
+7: []
+> undo 1
+1: []
+2: []
+> add 2
+1: []
+2: [X ]
+> mv 2 1
+1: [X ]
+2: []
+> add 2
+1: [X ]
+2: [X ]
+> replay 2
+1: [X , X ]
+2: [X ]
+> rm 2
+1: [X , X ]
+2: []
+> mv 2 1
+Attempt at invalid move from 2 to 1
+1: [X , X ]
+2: []
+> mv 1 2
+1: [X ]
+2: [X ]
+> replay 1
+1: []
+2: [X , X ]
+> size 1
+1: []
+> 
+```
+
 ## Coding Exercise
 
 Design a command-line controller program for a robotic arm that takes commands that move blocks stacked in a series of slots. After each command, output the state of the slots, which each line of output corresponding to a slot and each X corresponding to a block.
