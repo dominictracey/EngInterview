@@ -8,6 +8,14 @@ State management is pretty rudimentary so this isn't thread safe. State object w
 
 Exceptions are just trapped at the main run loop, though invalid inputs should be trapped and logged before they are attempted.
 
+Also probably should have templated IAction to support variable length parameter lists.
+
+Also never tied the action strings into the enum (create a constructor and member variable inside enum)
+
+I stayed away from some Java 8 constructs like lamba expressions and so forth to maximize readibility
+
+In general it works, took me a couple of hours and hopefully you like it!
+
 Output example:
 ```
 Valid actions are: size, add, mv, rm, replay, undo, exit
